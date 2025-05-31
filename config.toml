@@ -1,0 +1,108 @@
+[core]
+workspace_base="./workspace"
+
+[llm]
+model="gpt-4o"
+api_key=""
+
+[llm.o1-mini]
+model = "o1-mini"
+base_url = "[YOUR_ENDPOINT]/v1"
+api_key = "[YOUR_API_KEY]"
+temperature = 0.0
+
+[llm.gpt-4o-az-login]
+model = "gpt-4o"
+base_url = "[YOUR_ENDPOINT]/v1"
+api_key = ""
+temperature = 0.5
+
+[llm.deepseek-r1-distill-qwen-32b]
+model = "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B"
+base_url = "[YOUR_ENDPOINT]/v1"
+api_key = "[YOUR_API_KEY]"
+temperature = 0.5
+
+[llm.claude-3.7]
+model = "claude-3-7-sonnet-20250219"
+base_url = "https://api.anthropic.com/v1"
+api_key = "[YOUR_API_KEY]"
+temperature = 0.5
+
+[llm.claude-3.7-thinking]
+model = "claude-3-7-sonnet-20250219"
+base_url = "https://api.anthropic.com/v1"
+api_key = "[YOUR_API_KEY]"
+temperature = 1.0
+
+[llm.openhands-lm]
+model = "all-hands/openhands-lm-32b-v0.1"
+base_url = "http://localhost:8000/v1"
+api_key = "not-needed"
+temperature = 0.5
+
+[llm.poutine-openhands-lm]
+model = "poutine-openhands-lm"
+base_url = "http://localhost:8001/v1"
+api_key = "not-needed"
+temperature = 0.5
+
+[llm.poutine-openhands-lm_ep2]
+model = "poutine-openhands-lm_ep2"
+base_url = "http://localhost:8001/v1"
+api_key = "not-needed"
+temperature = 0.5
+
+[llm.poutine-openhands-lm_lr1e-5_ep2]
+model = "poutine-openhands-lm_lr1e-5_ep2"
+base_url = "http://localhost:8003/v1"
+api_key = "not-needed"
+temperature = 0.5
+
+[llm.parsed-poutine-openhands-32b-agent]
+model = "parsed-poutine-openhands-32b-agent"
+base_url = "http://localhost:8023/v1"
+api_key = "not-needed"
+temperature = 0.5
+
+[llm.poutine-r2egym-32b-agent]
+model = "poutine-r2egym-32b-agent"
+base_url = "http://localhost:8002/v1"
+api_key = "not-needed"
+temperature = 0.5
+
+[llm.parsed-poutine-r2egym-32b-agent]
+model = "parsed-poutine-r2egym-32b-agent"
+base_url = "http://localhost:8022/v1"
+api_key = "not-needed"
+temperature = 0.5
+
+[llm.OpenHands-32B-Agent_qwen32B_bs1x8_lr1e-4_ep5]
+model = "OpenHands-32B-Agent_qwen32B_bs1x8_lr1e-4_ep5"
+base_url = "http://localhost:8010/v1"
+api_key = "not-needed"
+temperature = 0.5
+
+[llm.r2egym-32b-agent]
+model = "openai/R2E-Gym/R2EGym-32B-Agent"
+base_url = "http://localhost:8004/v1"
+api_key = "not-needed"
+temperature = 0.5
+
+[llm.qwen25-coder-32b-instruct]
+model = "openai/Qwen/Qwen2.5-Coder-32B-Instruct"
+base_url = "http://localhost:8002/v1"
+api_key = "not-needed"
+temperature = 0.5
+
+[llm.R2EGym-32B-Agent_qwen32B_bs1x8_lr1e-5_ep2]
+model = "openai/R2EGym-32B-Agent_qwen32B_bs1x8_lr1e-5_ep2"
+base_url = "http://localhost:8011/v1"
+api_key = "not-needed"
+temperature = 0.5
+
+[llm.openhands-lm]
+model = "openai/all-hands/openhands-lm-32b-v0.1"
+base_url = "http://localhost:8003/v1"
+api_key = "not-needed"
+temperature = 0.5
