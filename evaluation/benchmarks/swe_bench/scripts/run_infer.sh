@@ -113,7 +113,10 @@ function run_eval() {
     --split $SPLIT \
     --mode $MODE"
 
-
+  # Add eval-output-dir if EVAL_OUTPUT_DIR is set
+  if [ -n "$EVAL_OUTPUT_DIR" ]; then
+    COMMAND="$COMMAND --eval-output-dir $EVAL_OUTPUT_DIR"
+  fi
 
   if [ -n "$EVAL_LIMIT" ]; then
     echo "EVAL_LIMIT: $EVAL_LIMIT"
