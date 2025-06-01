@@ -111,7 +111,7 @@ api_key = "not-needed"
 temperature = 0.5
 
 
-[llm.SWE-agent-LM-32B]
+[llm.swe-agent-lm-32b]
 model = "openai/SWE-bench/SWE-agent-LM-32B"
 base_url = "http://localhost:8007/v1"
 api_key = "not-needed"
