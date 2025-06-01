@@ -38,12 +38,6 @@ base_url = "https://api.anthropic.com/v1"
 api_key = "[YOUR_API_KEY]"
 temperature = 1.0
 
-[llm.openhands-lm]
-model = "all-hands/openhands-lm-32b-v0.1"
-base_url = "http://localhost:8000/v1"
-api_key = "not-needed"
-temperature = 0.5
-
 [llm.poutine-openhands-lm]
 model = "poutine-openhands-lm"
 base_url = "http://localhost:8001/v1"
