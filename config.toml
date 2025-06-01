@@ -92,7 +92,7 @@ base_url = "http://localhost:8002/v1"
 api_key = "not-needed"
 temperature = 0.5
 
-[llm.R2EGym-32B-Agent_qwen32B_bs1x8_lr1e-5_ep2]
+[llm.r2egym-32B-agent_qwen32B_bs1x8_lr1e-5_ep2]
 model = "openai/R2EGym-32B-Agent_qwen32B_bs1x8_lr1e-5_ep2"
 base_url = "http://localhost:8011/v1"
 api_key = "not-needed"
