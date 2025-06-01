@@ -1,9 +1,6 @@
 [core]
 workspace_base="./workspace"
 
-[agent]
-enable_history_truncation = false
-
 [llm]
 model="gpt-4o"
 api_key=""
