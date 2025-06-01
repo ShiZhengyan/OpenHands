@@ -1,6 +1,9 @@
 [core]
 workspace_base="./workspace"
 
+[agent]
+enable_history_truncation = false
+
 [llm]
 model="gpt-4o"
 api_key=""
@@ -104,5 +107,12 @@ temperature = 0.5
 [llm.openhands-lm]
 model = "openai/all-hands/openhands-lm-32b-v0.1"
 base_url = "http://localhost:8003/v1"
+api_key = "not-needed"
+temperature = 0.5
+
+
+[llm.SWE-agent-LM-32B]
+model = "openai/SWE-bench/SWE-agent-LM-32B"
+base_url = "http://localhost:8007/v1"
 api_key = "not-needed"
 temperature = 0.5
